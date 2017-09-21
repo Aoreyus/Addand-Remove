@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style>
+      
+    </style>
+    <script>
+    function coffeeOn(){
+      document.getElementById('description').style.visibility="visible";
+      document.getElementById('coffee').style.transform="rotate(45deg)";
+    }
+     function coffeeIn(){
+      document.getElementById('description').style.visibility="hidden";
+      document.getElementById('coffee').style.transform="rotate(0deg)";
+    }
+      
+    </script>
+  </head>
+  
+  <body>
+   <img src="http://365thingsaustin.com/wp-content/uploads/bigpreview_Coffee-with-Cinnamon-and-Chocolate.jpg" width="40%" id="coffee" onmouseover="coffeeOn()" onmouseout="coffeeIn()">
+   <h2 id="description">This is a delightful cup of coffee with complementry chocolates and cinnamons to enhance your taste !</h2>
+  </body>
+  
+  
+  
+  
+  
+</html>
